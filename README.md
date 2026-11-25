@@ -159,10 +159,8 @@ careloop-clinics-no-show-guard/
    data only and the test set is scored exactly once.
 6. **Generate output files:** the hand-off CSVs and `load_data.sql` are produced
    by the notebooks; do not edit them by hand.
-7. **Publish:** create a public GitHub repository and upload every file listed
-   under Submission (including the `data/` folder). Paste its URL at the top of
-   this README. `gh` is not authenticated on the build machine, so repository
-   creation and upload remain a manual step.
+7. **Publish:** the public repository is
+   https://github.com/balajiharish75/care_loop and contains every file listed
+   under Submission, including the `data/` folder.
 
 No API key or secret is included in this repository.
-# care_loop
