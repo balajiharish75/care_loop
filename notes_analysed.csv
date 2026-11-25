@@ -1,0 +1,51 @@
+note_id,appointment_id,root_cause,confidence,summary,recommended_action,validation_status,raw_response
+N001,A0872,forgot_or_no_reminder,1.0,Patient forgot the outpatient appointment because she did not receive a reminder message and requested to rebook for next week.,Reschedule the appointment for next week and verify the patient's contact information for future reminders.,valid,"{
+  ""root_cause"": ""forgot_or_no_reminder"",
+  ""confidence"": 1.0,
+  ""summary"": ""Patient forgot the outpatient appointment because she did not receive a reminder message and requested to rebook for next week."",
+  ""recommended_action"": ""Reschedule the appointment for next week and verify the patient's contact information for future reminders.""
+}"
+N002,A0897,distance_or_transport,1.0,Patient missed the appointment because they live far away and could not find transportation.,Contact patient to discuss telehealth options or assistance with transportation.,valid,"{
+  ""root_cause"": ""distance_or_transport"",
+  ""confidence"": 1.0,
+  ""summary"": ""Patient missed the appointment because they live far away and could not find transportation."",
+  ""recommended_action"": ""Contact patient to discuss telehealth options or assistance with transportation.""
+}"
+N003,A0526,cost_or_fee,0.95,Patient skipped the appointment because the consultation fee was too high and inquired about discounts.,Provide information on available financial assistance or discount options for follow-up visits.,valid,"{
+  ""root_cause"": ""cost_or_fee"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient skipped the appointment because the consultation fee was too high and inquired about discounts."",
+  ""recommended_action"": ""Provide information on available financial assistance or discount options for follow-up visits.""
+}"
+N004,A0926,other,0.0,No note recorded,Re-call patient,skipped_blank,
+N005,A0534,illness_or_emergency,0.99,"Patient missed the outpatient appointment due to high fever and body ache, and will reschedule after recovery.",Contact the patient once they have recovered to reschedule the outpatient appointment.,valid,"{
+  ""root_cause"": ""illness_or_emergency"",
+  ""confidence"": 0.99,
+  ""summary"": ""Patient missed the outpatient appointment due to high fever and body ache, and will reschedule after recovery."",
+  ""recommended_action"": ""Contact the patient once they have recovered to reschedule the outpatient appointment.""
+}"
+N006,A0507,work_or_schedule,1.0,Patient missed the appointment due to an urgent office meeting and requested an evening slot for future visits.,Reschedule the appointment for an evening time slot.,valid,"{
+  ""root_cause"": ""work_or_schedule"",
+  ""confidence"": 1.0,
+  ""summary"": ""Patient missed the appointment due to an urgent office meeting and requested an evening slot for future visits."",
+  ""recommended_action"": ""Reschedule the appointment for an evening time slot.""
+}"
+N007,A0333,forgot_or_no_reminder,0.95,Patient forgot the appointment because they did not receive an SMS reminder and wants to reschedule.,Help the patient rebook the outpatient appointment and ensure reminder preferences are active.,valid,"{
+  ""root_cause"": ""forgot_or_no_reminder"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient forgot the appointment because they did not receive an SMS reminder and wants to reschedule."",
+  ""recommended_action"": ""Help the patient rebook the outpatient appointment and ensure reminder preferences are active.""
+}"
+N008,A0222,,,,,error: ServerError,
+N009,A0977,other,0.9,Patient could not be reached after three attempts because their phone was switched off.,Attempt to contact the patient again later or send a written outreach message.,valid,"{
+  ""root_cause"": ""other"",
+  ""confidence"": 0.9,
+  ""summary"": ""Patient could not be reached after three attempts because their phone was switched off."",
+  ""recommended_action"": ""Attempt to contact the patient again later or send a written outreach message.""
+}"
+N010,A0596,work_or_schedule,0.95,Patient missed the appointment due to a factory shift change and inability to take leave.,Reschedule the appointment for a Saturday as requested by the patient.,valid,"{
+  ""root_cause"": ""work_or_schedule"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient missed the appointment due to a factory shift change and inability to take leave."",
+  ""recommended_action"": ""Reschedule the appointment for a Saturday as requested by the patient.""
+}"
